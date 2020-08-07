@@ -7,3 +7,6 @@
         在網頁輸入localhost:XXXX 跳轉到網頁
 
 查找html 網頁用甚麼語言 :html lang
+
+
+https://code.visualstudio.com/docs/editor/emmet 參考資料
