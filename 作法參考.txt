@@ -1,1 +1,7 @@
 #輸入"!" 並按下Teb 會產生基礎html模板#
+
+執行簡易HTTP伺服器:
+    window: 開啟cmd 切換到專案資料夾(輸入cd /d 檔案路徑)
+    Python3:
+        *python -m http.server:
+        在網頁輸入localhost:XXXX 跳轉到網頁
