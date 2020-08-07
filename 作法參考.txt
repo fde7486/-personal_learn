@@ -5,3 +5,5 @@
     Python3:
         *python -m http.server:
         在網頁輸入localhost:XXXX 跳轉到網頁
+
+查找html 網頁用甚麼語言 :html lang
