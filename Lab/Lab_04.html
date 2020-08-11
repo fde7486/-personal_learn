@@ -2,14 +2,19 @@
 <html lang="zh-hant-TW">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Lab-04</title>
     <style>
+        body{
+            
+            background:chartreuse;
+        }
         table{
             width:800px;
             height:600px;
             text-align: center;
             border:1px solid tan;
             color:black; 
+            background-color: white;
         }
         tr,
         th,
@@ -18,7 +23,7 @@
             color:black;        
         }
         
-        .cen,
+        #cen,
         thead,
         tbody>tr>td:first-child{
             background-color: brown;
@@ -27,7 +32,7 @@
     </style>
 </head>
 <body>
-    <table border="2">
+    <table>
         <caption>課表</caption>
         <thead>
             <tr>
@@ -39,7 +44,7 @@
                 <td >星期五</td>
             </tr>
         </thead>
-        <tbody class="tb">
+        <tbody >
             <tr>
                 <td>09:10</td>
                 <td>python基礎程序設計</td>
@@ -64,7 +69,7 @@
                 <td>python基礎程序設計</td>
                 <td>web基礎程序設計</td>
             </tr>
-            <tr class="cen">
+            <tr id="cen">
                 <td>12:10</td>
                 <td   colspan="5">午休</td>
                 
