@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>exe</title>
+    <style>
+        .box {
+            background-color: chocolate;
+            display:flex;
+            flex-flow:row;
+            max-height: 100vh;
+            justify-content: center;
+        }
+    .inner-box {
+        background-color: white;
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        font-size: 3rem;
+    }
+    /* .a{
+        visibility: hidden;
+    } */
+    .b{
+        align-self: flex-end;
+    }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="inner-box a">1</div>        
+        <div class="inner-box b">2</div>        
+        <div class="inner-box c">3</div>
+    </div>
+    
+</body>
+</html>
