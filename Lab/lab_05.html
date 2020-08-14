@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab-04</title>
+     <style>
+        body{
+            
+            background:chartreuse;
+        }
+        table{
+            width:800px;
+            height:600px;
+            text-align: center;
+            border:1px solid tan;
+            color:black; 
+            background-color:white;
+            font-size: 20px;
+            border-collapse: collapse;
+        }
+        td:hover{
+            background-color: violet;
+        }
+        tr,
+        th,
+        td{
+            border:1px  tan;
+            border-style:dotted;
+            color:black;        
+        }
+        
+        #cen,
+        thead,
+        tbody>tr>td:first-child{
+            background-color: rgb(163, 165, 42);
+            }
+        #cen{
+            font-style: italic;
+            font-weight: 900;
+            font-size: 50px;
+            text-shadow: 2px 2px 5px red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>課表</caption>
+        <thead>
+            <tr>
+                <td>  </td>
+                <td >星期一</td>
+                <td >星期二</td>
+                <td >星期三</td>
+                <td >星期四</td>
+                <td >星期五</td>
+            </tr>
+        </thead>
+        <tbody >
+            <tr>
+                <td>09:10</td>
+                <td>python基礎程序設計</td>
+                <td>web基礎程序設計</td>
+                <td>軟體工程專題</td>
+                <td>python基礎程序設計</td>
+                <td>web基礎程序設計</td>
+            </tr>
+            <tr>
+                <td>10:10</td>
+                <td>python基礎程序設計</td>
+                <td>web基礎程序設計</td>
+                <td>軟體工程專題</td>
+                <td>python基礎程序設計</td>
+                <td>web基礎程序設計</td>
+            </tr>
+            <tr>
+                <td>11:10</td>
+                <td>python基礎程序設計</td>
+                <td>web基礎程序設計</td>
+                <td>軟體工程專題</td>
+                <td>python基礎程序設計</td>
+                <td>web基礎程序設計</td>
+            </tr>
+            <tr >
+                <td>12:10</td>
+                <td id="cen" colspan="5">午休</td>
+                
+            </tr>
+            <tr>
+                <td>13:10</td>
+                <td>python基礎程序設計</td>
+                <td>web基礎程序設計</td>
+                <td>資訊概論</td>
+                <td>python基礎程序設計</td>
+                <td>web基礎程序設計</td>
+            </tr>
+            <tr>
+                <td>14:10</td>
+                <td>python基礎程序設計</td>
+                <td>web基礎程序設計</td>
+                <td>資訊概論</td>
+                <td>python基礎程序設計</td>
+                <td>web基礎程序設計</td>
+            </tr>
+            <tr>
+                <td>15:10</td>
+                <td>python基礎程序設計</td>
+                <td>web基礎程序設計</td>
+                <td>資訊概論</td>
+                <td>python基礎程序設計</td>
+                <td>web基礎程序設計</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+</html>
