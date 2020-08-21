@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-hant-TW">
+<head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Lab-07</title>
+     <style>
+        .Main{
+            display: flex;
+            flex-direction: row;
+            /* align-items: center; */
+        }
+        .Header{
+            flex:100vw;
+            background-color: violet;
+            height: 80px;
+
+        }
+        .Header h1{
+            text-shadow: 2px 2px 5px red;
+            
+        }
+        
+        h1{
+            text-align: center;
+        }
+        table{
+            /* width:800px;
+            height:600px; */
+            text-align: center;
+            border:1px solid tan;
+            color:black; 
+            background-color:white;
+            font-size: 20px;
+            border-collapse: collapse;
+            border-style:outset;
+            border-width:6px;
+        }
+        td:hover{
+            background-color: violet;
+        }
+        tr,
+        th,
+        td{
+            border:1px  tan;
+            border-style:dotted;
+            color:black;        
+        }
+        
+        #cen,
+        thead,
+        tbody>tr>td:first-child{
+            background-color: rgb(163, 165, 42);
+            }
+        #cen{
+            font-style: italic;
+            font-weight: 900;
+            font-size: 50px;
+            text-shadow: 2px 2px 5px red;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="Header container-fluid">
+         <h1>實作練習<small class="text-muted">Bootstart</small></h1>
+    </div>
+    <div class="Main container d-flex align-items-start">
+        <div class="d-inline-flex p-2 bd-highlight alert alert-primary" role="alert">
+            <ul>
+                <li ><a href="Lab_01.html">lab-01</a></li>
+                <li><a href="Lab_02.html">lab-02</a></li>
+                <li><a href="Lab_04.html">lab-04</a></li>
+                <li><a href="lab_05.html">lab-05</a></li>
+            </ul> 
+        </div>        
+        <div>
+            <table>
+                <p class="lead">課表</p>
+                <thead>
+                    <tr>
+                        <td>  </td>
+                        <td >星期一</td>
+                        <td >星期二</td>
+                        <td >星期三</td>
+                        <td >星期四</td>
+                        <td >星期五</td>
+                    </tr>
+                </thead>
+                <tbody >
+                    <tr>
+                        <td>09:10</td>
+                        <td>python基礎程序設計</td>
+                        <td>web基礎程序設計</td>
+                        <td>軟體工程專題</td>
+                        <td>python基礎程序設計</td>
+                        <td>web基礎程序設計</td>
+                    </tr>
+                    <tr>
+                        <td>10:10</td>
+                        <td>python基礎程序設計</td>
+                        <td>web基礎程序設計</td>
+                        <td>軟體工程專題</td>
+                        <td>python基礎程序設計</td>
+                        <td>web基礎程序設計</td>
+                    </tr>
+                    <tr>
+                        <td>11:10</td>
+                        <td>python基礎程序設計</td>
+                        <td>web基礎程序設計</td>
+                        <td>軟體工程專題</td>
+                        <td>python基礎程序設計</td>
+                        <td>web基礎程序設計</td>
+                    </tr>
+                    <tr >
+                        <td>12:10</td>
+                        <td id="cen" colspan="5">午休</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>13:10</td>
+                        <td>python基礎程序設計</td>
+                        <td>web基礎程序設計</td>
+                        <td>資訊概論</td>
+                        <td>python基礎程序設計</td>
+                        <td>web基礎程序設計</td>
+                    </tr>
+                    <tr>
+                        <td>14:10</td>
+                        <td>python基礎程序設計</td>
+                        <td>web基礎程序設計</td>
+                        <td>資訊概論</td>
+                        <td>python基礎程序設計</td>
+                        <td>web基礎程序設計</td>
+                    </tr>
+                    <tr>
+                        <td>15:10</td>
+                        <td>python基礎程序設計</td>
+                        <td>web基礎程序設計</td>
+                        <td>資訊概論</td>
+                        <td>python基礎程序設計</td>
+                        <td>web基礎程序設計</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
