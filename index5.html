@@ -1,0 +1,17 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <p><a href="https://www.facebook.com/" id="link">Facebook</a></p>
+    <button>替換 href</button>
+
+    <script>
+        $("button").click(function () {
+            $("#link").attr("href", "https://google.com");
+        });
+    </script>
+
+</body>
+</html>
