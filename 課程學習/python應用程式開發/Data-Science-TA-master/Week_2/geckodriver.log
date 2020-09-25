@@ -1,0 +1,65 @@
+1600483143988	geckodriver	INFO	Listening on 127.0.0.1:49364
+1600483147114	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\鄭煒達\\AppData\\Local\\Temp\\rust_mozprofiletIK1MD"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600483149160	Marionette	INFO	Listening on port 49372
+1600483149225	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600483334145	Marionette	INFO	Stopped listening on port 49372
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+al\\Temp\\rust_mozprofileumujAm"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600483326632	Marionette	INFO	Listening on port 49450
+1600483326665	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.fcu.edu.tw/wSite/mp?mp=1, line 872: SyntaxError: expected property name, got '{'
+1600483332061	Marionette	INFO	Stopped listening on port 49450
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600483598950	geckodriver	INFO	Listening on 127.0.0.1:64937
+1600483602105	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\鄭煒達\\AppData\\Local\\Temp\\rust_mozprofileEwBHsm"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600483604244	Marionette	INFO	Listening on port 64945
+1600483604259	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600483607288	Marionette	INFO	Stopped listening on port 64945
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600485180798	geckodriver	INFO	Listening on 127.0.0.1:65167
+1600485183914	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\鄭煒達\\AppData\\Local\\Temp\\rust_mozprofileF0zgyP"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600485186083	Marionette	INFO	Listening on port 65175
+1600485186577	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600485190602	Marionette	INFO	Stopped listening on port 65175
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1600485238143	geckodriver	INFO	Listening on 127.0.0.1:65231
+1600485241307	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\鄭煒達\\AppData\\Local\\Temp\\rust_mozprofileXX20Ec"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600485243463	Marionette	INFO	Listening on port 65239
+1600485243945	Marionette	WARN	TLS certificate errors will be ignored for this session
+1600485277112	Marionette	INFO	Stopped listening on port 65239
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

@@ -1,0 +1,1 @@
+C:\Users\鄭煒達\AppData\Local\Programs\Python\Python38-32\Lib\venv\scripts\nt\python.exe ch2_7.py
