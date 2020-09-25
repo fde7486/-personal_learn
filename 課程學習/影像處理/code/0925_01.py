@@ -1,3 +1,5 @@
+# 影像處理 平均化 取中值 
+
 import numpy as np
 import cv2
 
