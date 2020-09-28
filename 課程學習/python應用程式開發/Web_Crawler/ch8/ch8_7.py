@@ -1,6 +1,7 @@
 # ch8_7.py
 import requests, bs4
 import json
+import time
 
 url = 'https://www.ptt.cc/bbs/Gossiping/index.html'
 ptthtml = requests.get(url, cookies={'over18':'1'})
@@ -26,7 +27,9 @@ for p in pttdivs:
                          'push_num':push_num,           # 推文數
                         })
 
-fn = 'out8_7.json'
+t = time.localtime(time.time())
+fn = '{}_{}_{}_{}.json'.format(t.tm_mon,t.tm_mday,t.tm_hour,t.tm_min)
+
 with open(fn, 'w', encoding='utf-8') as fnObj:
     json.dump(articles, fnObj, ensure_ascii= False, indent=2)
 
