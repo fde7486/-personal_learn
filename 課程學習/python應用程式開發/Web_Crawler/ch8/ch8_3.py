@@ -12,6 +12,15 @@ for p in pttdivs:
         title = p.find('a').text
         author = p.find('div', 'author').text
         href = p.find('a')['href']
+        f = open("928.txt",'a',encoding="utf-8")
+        f.write('title : {}\n'.format(title))
+        f.close()
+        f = open("928.txt",'a',encoding="utf-8")
+        f.write('author : {}\n'.format(author))
+        f.close()
+        f = open("928.txt",'a',encoding="utf-8")
+        f.write('href : {}\n'.format(href))
+        f.close()
         articles.append({'title':title,                 # 文章標題
                          'author':author,               # 文章作者
                          'href':href,                   # 文章超連結
