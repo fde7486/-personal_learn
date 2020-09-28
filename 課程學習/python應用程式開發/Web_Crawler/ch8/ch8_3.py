@@ -1,5 +1,6 @@
 # ch8_3.py
 import requests, bs4
+import time
 
 url = 'https://www.ptt.cc/bbs/Gossiping/index.html'
 ptthtml = requests.get(url, cookies={'over18':'1'})
@@ -7,12 +8,13 @@ objSoup = bs4.BeautifulSoup(ptthtml.text, 'lxml')
 
 articles = []                                           # 本頁面文章
 pttdivs = objSoup.find_all('div', 'r-ent')
+t = time.localtime(time.time())
 for p in pttdivs:
     if p.find('a'):
         title = p.find('a').text
         author = p.find('div', 'author').text
         href = p.find('a')['href']
-        f = open("928.txt",'a',encoding="utf-8")
+        f = open('{}_{}_{}_{}.json'.format(t.tm_mon,t.tm_mday,t.tm_hour,t.tm_min),'a',encoding="utf-8")
         f.write('title : {}\n'.format(title))
         f.close()
         f = open("928.txt",'a',encoding="utf-8")
